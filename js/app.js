@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
     try {
-        const response = await fetch("content/site-content.json");
+        const response = await fetch("content.json");
 
         if (!response.ok) {
             throw new Error("Content file could not be loaded.");
