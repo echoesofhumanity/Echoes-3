@@ -8,7 +8,7 @@
 
     <meta
         name="description"
-        content="Echoes of Humanity — Building a digital home for humanity."
+        content="Echoes of Humanity — A global space for people, ideas, stories, knowledge and action."
     >
 
     <link rel="stylesheet" href="style.css">
@@ -21,11 +21,10 @@
     ========================== -->
 
     <header class="site-header">
-
         <div class="container header-inner">
 
             <a href="index.html" class="logo">
-                Echoes of Humanity
+                <span data-content="site-name">Echoes of Humanity</span>
             </a>
 
             <nav class="main-nav" aria-label="Main navigation">
@@ -41,7 +40,6 @@
             </nav>
 
         </div>
-
     </header>
 
 
@@ -51,34 +49,39 @@
              HERO
         ========================== -->
 
-        <section class="hero">
+        <section class="hero" id="hero">
 
-            <div class="hero-atmosphere"></div>
+            <div class="hero-atmosphere" aria-hidden="true"></div>
 
             <div class="container hero-content">
 
-                <p class="eyebrow">
-                    ECHOES OF HUMANITY
+                <p
+                    class="hero-eyebrow"
+                    data-content="hero.eyebrow">
                 </p>
 
-                <h1>
-                    Building a Digital Home
-                    <span>for Humanity.</span>
+                <h1
+                    class="hero-title"
+                    data-content="hero.title">
                 </h1>
 
-                <p class="hero-text">
-                    A global space for people, ideas, stories,
-                    knowledge and action — connected by our shared humanity.
+                <p
+                    class="hero-description"
+                    data-content="hero.description">
                 </p>
 
                 <div class="hero-actions">
 
-                    <a href="about.html" class="button button-primary">
-                        Explore
+                    <a
+                        href="#explore"
+                        class="button button-primary"
+                        data-content="hero.primaryButton">
                     </a>
 
-                    <a href="contact.html" class="button button-secondary">
-                        Join the Movement
+                    <a
+                        href="#join"
+                        class="button button-secondary"
+                        data-content="hero.secondaryButton">
                     </a>
 
                 </div>
@@ -89,32 +92,26 @@
 
 
         <!-- =========================
-             THE IDEA
+             INTRODUCTION
         ========================== -->
 
-        <section class="section idea-section">
+        <section class="section introduction" id="explore">
 
-            <div class="container narrow">
+            <div class="container">
 
-                <p class="section-label">
-                    THE IDEA
+                <p
+                    class="section-eyebrow"
+                    data-content="introduction.eyebrow">
                 </p>
 
-                <h2>
-                    Humanity is bigger than borders.
+                <h2
+                    data-content="introduction.title">
                 </h2>
 
-                <p>
-                    Echoes of Humanity is being built as a digital home
-                    where people can discover, share, learn, create
-                    and take meaningful action.
-                </p>
-
-                <p>
-                    Different voices. Different cultures.
-                    Different experiences.
-                    One shared human story.
-                </p>
+                <div
+                    class="section-text"
+                    data-content="introduction.description">
+                </div>
 
             </div>
 
@@ -122,97 +119,68 @@
 
 
         <!-- =========================
-             GLOBAL NETWORK
+             FEATURED PROJECTS
         ========================== -->
 
-        <section class="section network-section">
+        <section class="section featured-projects" id="projects">
 
             <div class="container">
 
                 <div class="section-heading">
 
-                    <p class="section-label">
-                        THE GLOBAL NETWORK
+                    <p
+                        class="section-eyebrow"
+                        data-content="projects.eyebrow">
                     </p>
 
-                    <h2>
-                        Many paths. One human purpose.
+                    <h2
+                        data-content="projects.title">
                     </h2>
 
-                    <p>
-                        A connected ecosystem bringing together
-                        action, knowledge, creativity, technology
-                        and human connection.
+                    <p
+                        data-content="projects.description">
                     </p>
 
                 </div>
 
+                <div
+                    class="content-grid"
+                    data-content-list="projects.items">
+                </div>
 
-                <div class="network-grid">
+            </div>
 
-                    <a href="humanitarian-action.html" class="network-card">
-
-                        <span class="card-number">01</span>
-
-                        <h3>
-                            Humanitarian Action
-                        </h3>
-
-                        <p>
-                            Turning compassion into meaningful action
-                            and support.
-                        </p>
-
-                    </a>
+        </section>
 
 
-                    <a href="global-network.html" class="network-card">
+        <!-- =========================
+             STORIES
+        ========================== -->
 
-                        <span class="card-number">02</span>
+        <section class="section stories" id="stories">
 
-                        <h3>
-                            Global Network
-                        </h3>
+            <div class="container">
 
-                        <p>
-                            Connecting people and organizations
-                            across communities and borders.
-                        </p>
+                <div class="section-heading">
 
-                    </a>
+                    <p
+                        class="section-eyebrow"
+                        data-content="stories.eyebrow">
+                    </p>
 
+                    <h2
+                        data-content="stories.title">
+                    </h2>
 
-                    <a href="academy.html" class="network-card">
+                    <p
+                        data-content="stories.description">
+                    </p>
 
-                        <span class="card-number">03</span>
+                </div>
 
-                        <h3>
-                            Academy
-                        </h3>
-
-                        <p>
-                            Sharing knowledge and empowering
-                            future generations.
-                        </p>
-
-                    </a>
-
-
-                    <a href="media-archive.html" class="network-card">
-
-                        <span class="card-number">04</span>
-
-                        <h3>
-                            Media
-                        </h3>
-
-                        <p>
-                            Stories, voices, ideas and creativity
-                            from around the world.
-                        </p>
-
-                    </a>
-
+                <div
+                    class="content-grid"
+                    data-content-list="stories.items">
                 </div>
 
             </div>
@@ -224,166 +192,27 @@
              HUMANITARIAN ACTION
         ========================== -->
 
-        <section class="section action-section">
-
-            <div class="container split-layout">
-
-                <div>
-
-                    <p class="section-label">
-                        HUMANITARIAN ACTION
-                    </p>
-
-                    <h2>
-                        Compassion becomes stronger
-                        when people act together.
-                    </h2>
-
-                </div>
-
-                <div>
-
-                    <p>
-                        Echoes of Humanity creates space for
-                        humanitarian initiatives, community
-                        collaboration and projects designed
-                        to create meaningful impact.
-                    </p>
-
-                    <a href="humanitarian-action.html" class="text-link">
-                        Discover Humanitarian Action →
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             ACADEMY
-        ========================== -->
-
-        <section class="section academy-section">
-
-            <div class="container split-layout">
-
-                <div>
-
-                    <p class="section-label">
-                        ACADEMY
-                    </p>
-
-                    <h2>
-                        Knowledge can change
-                        the direction of a life.
-                    </h2>
-
-                </div>
-
-                <div>
-
-                    <p>
-                        A space for learning, knowledge sharing,
-                        education and the development of ideas
-                        that can serve future generations.
-                    </p>
-
-                    <a href="academy.html" class="text-link">
-                        Enter the Academy →
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             MEDIA
-        ========================== -->
-
-        <section class="section media-section">
+        <section class="section action-section" id="action">
 
             <div class="container">
 
-                <div class="section-heading">
-
-                    <p class="section-label">
-                        MEDIA
-                    </p>
-
-                    <h2>
-                        Every story leaves an echo.
-                    </h2>
-
-                    <p>
-                        Explore stories, documentaries, interviews,
-                        journalism, books, music, art and human voices.
-                    </p>
-
-                </div>
-
-
-                <div class="media-links">
-
-                    <a href="documentaries.html">
-                        Documentaries
-                    </a>
-
-                    <a href="interviews.html">
-                        Interviews
-                    </a>
-
-                    <a href="investigative-journalism.html">
-                        Investigative Journalism
-                    </a>
-
-                    <a href="books.html">
-                        Books
-                    </a>
-
-                    <a href="literature.html">
-                        Literature
-                    </a>
-
-                    <a href="digital-art.html">
-                        Digital Art
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             TODAY'S ECHOES
-        ========================== -->
-
-        <section class="section echoes-section">
-
-            <div class="container narrow center">
-
-                <p class="section-label">
-                    TODAY'S ECHOES
+                <p
+                    class="section-eyebrow"
+                    data-content="action.eyebrow">
                 </p>
 
-                <h2>
-                    The world is always speaking.
+                <h2
+                    data-content="action.title">
                 </h2>
 
-                <p>
-                    News, stories, ideas and human experiences
-                    that deserve to be heard.
+                <p
+                    data-content="action.description">
                 </p>
 
-                <a href="humanitarian-news.html" class="button button-primary">
-                    Explore the Latest
-                </a>
+                <div
+                    class="content-grid"
+                    data-content-list="action.items">
+                </div>
 
             </div>
 
@@ -394,37 +223,28 @@
              JOIN THE MOVEMENT
         ========================== -->
 
-        <section class="section join-section">
+        <section class="section join-section" id="join">
 
-            <div class="container narrow center">
+            <div class="container">
 
-                <p class="section-label">
-                    JOIN THE MOVEMENT
+                <p
+                    class="section-eyebrow"
+                    data-content="join.eyebrow">
                 </p>
 
-                <h2>
-                    Every great movement begins
-                    with people who care.
+                <h2
+                    data-content="join.title">
                 </h2>
 
-                <p>
-                    Whether you want to volunteer, collaborate,
-                    share knowledge, support a project or simply
-                    become part of the conversation — there is
-                    a place for you here.
+                <p
+                    data-content="join.description">
                 </p>
 
-                <div class="hero-actions">
-
-                    <a href="volunteer.html" class="button button-primary">
-                        Become a Volunteer
-                    </a>
-
-                    <a href="contact.html" class="button button-secondary">
-                        Contact Us
-                    </a>
-
-                </div>
+                <a
+                    href="contact.html"
+                    class="button button-primary"
+                    data-content="join.button">
+                </a>
 
             </div>
 
@@ -439,22 +259,15 @@
 
     <footer class="site-footer">
 
-        <div class="container footer-inner">
+        <div class="container">
 
             <div class="footer-brand">
-
-                <h2>
+                <span data-content="site-name">
                     Echoes of Humanity
-                </h2>
-
-                <p>
-                    A digital home for humanity.
-                </p>
-
+                </span>
             </div>
 
-
-            <div class="footer-links">
+            <nav class="footer-nav" aria-label="Footer navigation">
 
                 <a href="about.html">About</a>
                 <a href="vision.html">Vision</a>
@@ -463,14 +276,9 @@
                 <a href="projects.html">Projects</a>
                 <a href="contact.html">Contact</a>
 
-            </div>
+            </nav>
 
-        </div>
-
-
-        <div class="container footer-bottom">
-
-            <p>
+            <p class="copyright">
                 © 2026 Echoes of Humanity. All rights reserved.
             </p>
 
@@ -478,5 +286,9 @@
 
     </footer>
 
+
+    <!-- CONTENT LOADER -->
+    <script src="js/app.js"></script>
+
 </body>
-                      </html>
+    </html>
