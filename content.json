@@ -1,1 +1,120 @@
+{
+  "site-name": "Echoes of Humanity",
 
+  "hero": {
+    "eyebrow": "ECHOES OF HUMANITY",
+    "title": "Building a Digital Home for Humanity.",
+    "description": "A global space for people, ideas, stories, knowledge and action — connected by our shared humanity.",
+    "primaryButton": "Explore",
+    "secondaryButton": "Join the Movement"
+  },
+
+  "introduction": {
+    "eyebrow": "A LIVING DIGITAL SPACE",
+    "title": "A Home for Humanity",
+    "description": "A place where people, ideas, stories and knowledge can meet, connect and become meaningful action.",
+    "cards": {
+      "people": {
+        "title": "People",
+        "description": "Voices, experiences and perspectives from people around the world."
+      },
+      "ideas": {
+        "title": "Ideas",
+        "description": "Ideas that challenge, inspire and help us imagine a better future."
+      },
+      "stories": {
+        "title": "Stories",
+        "description": "Human stories that deserve to be heard, remembered and shared."
+      },
+      "knowledge": {
+        "title": "Knowledge",
+        "description": "Research, learning and information gathered to help humanity understand itself."
+      }
+    }
+  },
+
+  "projects": {
+    "eyebrow": "WHAT WE ARE BUILDING",
+    "title": "Featured Projects",
+    "description": "Independent projects created to explore humanity, protect people and turn knowledge into action.",
+    "project1": {
+      "category": "Humanity",
+      "title": "Echoes of Humanity",
+      "description": "A growing digital home connecting people, stories, ideas and action.",
+      "link": "#"
+    },
+    "project2": {
+      "category": "Awareness",
+      "title": "The Human Archive",
+      "description": "Stories, documents and knowledge preserved so important voices are not forgotten.",
+      "link": "#"
+    },
+    "project3": {
+      "category": "Action",
+      "title": "Humanitarian Action",
+      "description": "A space dedicated to turning awareness and compassion into meaningful action.",
+      "link": "#"
+    },
+    "items": [
+      {
+        "title": "Echoes of Humanity",
+        "description": "A growing digital home connecting people, stories, ideas and action."
+      },
+      {
+        "title": "The Human Archive",
+        "description": "Stories, documents and knowledge preserved so important voices are not forgotten."
+      },
+      {
+        "title": "Humanitarian Action",
+        "description": "A space dedicated to turning awareness and compassion into meaningful action."
+      }
+    ]
+  },
+
+  "stories": {
+    "eyebrow": "VOICES THAT MATTER",
+    "title": "Stories",
+    "description": "Every story carries a piece of humanity. Some need to be heard, some need to be remembered.",
+    "items": [
+      {
+        "title": "Human Stories",
+        "description": "Real experiences from people and communities around the world."
+      },
+      {
+        "title": "Untold Voices",
+        "description": "Stories that deserve attention beyond the noise of the modern world."
+      },
+      {
+        "title": "Stories of Hope",
+        "description": "Moments of courage, kindness and resilience that remind us what people are capable of."
+      }
+    ]
+  },
+
+  "action": {
+    "eyebrow": "FROM AWARENESS TO ACTION",
+    "title": "Humanitarian Action",
+    "description": "Awareness matters. But humanity becomes stronger when awareness becomes action.",
+    "items": [
+      {
+        "title": "Raise Awareness",
+        "description": "Share knowledge and help people understand the issues affecting humanity."
+      },
+      {
+        "title": "Support People",
+        "description": "Connect compassion with meaningful ways to support people and communities."
+      },
+      {
+        "title": "Build Change",
+        "description": "Turn ideas, knowledge and collective effort into lasting positive change."
+      }
+    ]
+  },
+
+  "join": {
+    "eyebrow": "BE PART OF IT",
+    "title": "Join the Movement",
+    "description": "Echoes of Humanity grows through people who believe that knowledge, compassion and action can make a difference.",
+    "button": "Get Involved"
+  }
+}
