@@ -111,6 +111,165 @@
     ]
   },
 
+    "buildingTogether": {
+    "eyebrow": "BUILDING TOGETHER",
+    "title": "Building Together",
+    "description": "Humanity grows stronger when people share ideas, knowledge and possibilities.",
+    "items": [
+      {
+        "title": "Shared Ideas",
+        "description": "Ideas become stronger when people from different perspectives bring them together."
+      },
+      {
+        "title": "Collective Knowledge",
+        "description": "Knowledge grows when it is shared, questioned and preserved."
+      },
+      {
+        "title": "Common Purpose",
+        "description": "Different people can contribute to a shared vision for a better future."
+      }
+    ]
+  },
+
+  "responseCenter": {
+    "eyebrow": "HUMANITY RESPONSE CENTER",
+    "title": "Humanity Response Center",
+    "description": "A space for information, resources and coordinated responses to issues affecting people and communities.",
+    "items": [
+      {
+        "title": "Information",
+        "description": "Reliable information to help people understand what is happening around them."
+      },
+      {
+        "title": "Resources",
+        "description": "Useful resources gathered to help people find support and take informed action."
+      },
+      {
+        "title": "Response",
+        "description": "Connecting awareness with practical responses when people need help."
+      }
+    ]
+  },
+
+  "echoesInAction": {
+    "eyebrow": "ECHOES IN ACTION",
+    "title": "Echoes in Action",
+    "description": "Ideas matter most when they move beyond words and become meaningful action.",
+    "items": [
+      {
+        "title": "Awareness",
+        "description": "Bringing important issues into the light so they can be understood."
+      },
+      {
+        "title": "Participation",
+        "description": "Giving people meaningful ways to contribute their time, ideas and abilities."
+      },
+      {
+        "title": "Change",
+        "description": "Turning collective effort into positive and lasting change."
+      }
+    ]
+  },
+
+  "academy": {
+    "eyebrow": "ECHOES ACADEMY",
+    "title": "Echoes Academy",
+    "description": "A growing space for learning, research and knowledge that helps people understand humanity and the world around them.",
+    "items": [
+      {
+        "title": "Learn",
+        "description": "Explore knowledge and educational resources from different fields and perspectives."
+      },
+      {
+        "title": "Research",
+        "description": "Discover research, documents and information gathered for deeper understanding."
+      },
+      {
+        "title": "Share Knowledge",
+        "description": "Help knowledge travel further by sharing what you learn with others."
+      }
+    ]
+  },
+
+  "globalNetwork": {
+    "eyebrow": "GLOBAL NETWORK",
+    "title": "A Global Human Network",
+    "description": "People and communities connected across borders by shared humanity and a common desire to make a difference.",
+    "items": [
+      {
+        "title": "People",
+        "description": "Individuals bringing their experiences, skills and perspectives to a global community."
+      },
+      {
+        "title": "Communities",
+        "description": "Communities connecting locally while contributing to a wider human network."
+      },
+      {
+        "title": "Connections",
+        "description": "Building meaningful connections across cultures, countries and generations."
+      }
+    ]
+  },
+
+  "partners": {
+    "eyebrow": "PARTNERS",
+    "title": "Partners in Humanity",
+    "description": "Working together with people, organizations and communities that share a commitment to humanity.",
+    "items": [
+      {
+        "title": "Organizations",
+        "description": "Organizations working to create meaningful positive change."
+      },
+      {
+        "title": "Communities",
+        "description": "Communities contributing local knowledge, experience and action."
+      },
+      {
+        "title": "Individuals",
+        "description": "People who bring their skills, ideas and commitment to the movement."
+      }
+    ]
+  },
+    "marketplace": {
+    "eyebrow": "HUMANITY MARKETPLACE",
+    "title": "Marketplace",
+    "description": "A space for meaningful products, creative work and projects connected to the values of humanity.",
+    "items": [
+      {
+        "title": "Humanity Merchandise",
+        "description": "Products created to carry the spirit and message of Echoes of Humanity."
+      },
+      {
+        "title": "Creative Works",
+        "description": "Art, music and creative works created by people from around the world."
+      },
+      {
+        "title": "Support the Mission",
+        "description": "Meaningful ways to support projects that turn awareness into action."
+      }
+    ]
+  },
+
+    "merchandise": {
+    "eyebrow": "MERCHANDISE",
+    "title": "Carry the Echo",
+    "description": "Meaningful pieces created to carry the spirit of Echoes of Humanity beyond the digital world.",
+    "items": [
+      {
+        "title": "Wear the Message",
+        "description": "Thoughtfully created pieces carrying the values, words and spirit of humanity."
+      },
+      {
+        "title": "Support the Work",
+        "description": "Every purchase can help sustain the creative and humanitarian work behind the ecosystem."
+      },
+      {
+        "title": "Share the Echo",
+        "description": "Take a piece of the movement with you and let its message travel further."
+      }
+    ]
+  },
+
   "join": {
     "eyebrow": "BE PART OF IT",
     "title": "Join the Movement",
